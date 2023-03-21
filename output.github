@@ -1,0 +1,11 @@
+
+[0;31mERROR[0m: MethodSignatureMismatch - ]8;;file:///home/username/psalm-sub-issue/src/TestProcessor.php#L16\src/[1;31mTestProcessor.php:16:70[0m]8;;\ - Argument 3 of MichelCetina\PsalmSubIssue\TestProcessor::process has wrong type 'array<array-key, mixed>', expecting 'array<string, string>' as defined by ApiPlatform\State\ProcessorInterface::process (see https://psalm.dev/042)
+    public function process(mixed $data, Operation $operation, array [97;41m$uriVariables[0m = [], array $context = []): array
+
+
+------------------------------
+[0;31m1 errors[0m found
+------------------------------
+
+Checks took 0.46 seconds and used 65.115MB of memory
+Psalm was able to infer types for 100% of the codebase

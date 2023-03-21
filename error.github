@@ -1,0 +1,573 @@
+Warning: "findUnusedBaselineEntry" will be defaulted to "true" in Psalm 6. You should explicitly enable or disable this setting.
+Warning: "findUnusedCode" will be defaulted to "true" in Psalm 6. You should explicitly enable or disable this setting.
+Warning: "findUnusedBaselineEntry" will be defaulted to "true" in Psalm 6. You should explicitly enable or disable this setting.
+Warning: "findUnusedCode" will be defaulted to "true" in Psalm 6. You should explicitly enable or disable this setting.
+Process plugin adjustments...
+Target PHP version: 8.1 (inferred from composer.json).
+Scanning files...
+Registering autoloaded files
+   /home/username/psalm-sub-issue/vendor/autoload.php
+   /home/username/psalm-sub-issue/vendor/composer/autoload_real.php
+   /home/username/psalm-sub-issue/vendor/composer/platform_check.php
+   /home/username/psalm-sub-issue/vendor/composer/ClassLoader.php
+   /home/username/psalm-sub-issue/vendor/composer/autoload_static.php
+   /home/username/psalm-sub-issue/vendor/symfony/polyfill-mbstring/bootstrap.php
+   /home/username/psalm-sub-issue/vendor/symfony/polyfill-mbstring/bootstrap80.php
+   /home/username/psalm-sub-issue/vendor/symfony/polyfill-ctype/bootstrap.php
+   /home/username/psalm-sub-issue/vendor/symfony/polyfill-ctype/bootstrap80.php
+   /home/username/psalm-sub-issue/vendor/symfony/deprecation-contracts/function.php
+   /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-grapheme/bootstrap.php
+   /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-grapheme/bootstrap80.php
+   /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-normalizer/bootstrap.php
+   /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-normalizer/bootstrap80.php
+   /home/username/psalm-sub-issue/vendor/symfony/string/Resources/functions.php
+   /home/username/psalm-sub-issue/vendor/amphp/amp/lib/functions.php
+   /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Internal/functions.php
+   /home/username/psalm-sub-issue/vendor/symfony/var-dumper/Resources/functions/dump.php
+   /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/functions.php
+   /home/username/psalm-sub-issue/vendor/vimeo/psalm/src/Psalm/Internal/VersionUtils.php
+   /home/username/psalm-sub-issue/vendor/composer/InstalledVersions.php
+   /home/username/psalm-sub-issue/vendor/composer/installed.php
+   /home/username/psalm-sub-issue/vendor/composer/autoload_files.php
+Parsing /home/username/psalm-sub-issue/vendor/autoload.php
+Deep scanning /home/username/psalm-sub-issue/vendor/autoload.php
+Parsing /home/username/psalm-sub-issue/vendor/composer/autoload_real.php
+Deep scanning /home/username/psalm-sub-issue/vendor/composer/autoload_real.php
+Parsing /home/username/psalm-sub-issue/vendor/composer/platform_check.php
+Deep scanning /home/username/psalm-sub-issue/vendor/composer/platform_check.php
+Parsing /home/username/psalm-sub-issue/vendor/composer/ClassLoader.php
+Deep scanning /home/username/psalm-sub-issue/vendor/composer/ClassLoader.php
+Parsing /home/username/psalm-sub-issue/vendor/composer/autoload_static.php
+Deep scanning /home/username/psalm-sub-issue/vendor/composer/autoload_static.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/polyfill-mbstring/bootstrap.php
+Deep scanning /home/username/psalm-sub-issue/vendor/symfony/polyfill-mbstring/bootstrap.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/polyfill-mbstring/bootstrap80.php
+Deep scanning /home/username/psalm-sub-issue/vendor/symfony/polyfill-mbstring/bootstrap80.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/polyfill-ctype/bootstrap.php
+Deep scanning /home/username/psalm-sub-issue/vendor/symfony/polyfill-ctype/bootstrap.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/polyfill-ctype/bootstrap80.php
+Deep scanning /home/username/psalm-sub-issue/vendor/symfony/polyfill-ctype/bootstrap80.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/deprecation-contracts/function.php
+Deep scanning /home/username/psalm-sub-issue/vendor/symfony/deprecation-contracts/function.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-grapheme/bootstrap.php
+Deep scanning /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-grapheme/bootstrap.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-grapheme/bootstrap80.php
+Deep scanning /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-grapheme/bootstrap80.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-normalizer/bootstrap.php
+Deep scanning /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-normalizer/bootstrap.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-normalizer/bootstrap80.php
+Deep scanning /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-normalizer/bootstrap80.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/string/Resources/functions.php
+Deep scanning /home/username/psalm-sub-issue/vendor/symfony/string/Resources/functions.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/functions.php
+Deep scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/functions.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Internal/functions.php
+Deep scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Internal/functions.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/var-dumper/Resources/functions/dump.php
+Deep scanning /home/username/psalm-sub-issue/vendor/symfony/var-dumper/Resources/functions/dump.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/functions.php
+Deep scanning /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/functions.php
+Parsing /home/username/psalm-sub-issue/vendor/vimeo/psalm/src/Psalm/Internal/VersionUtils.php
+Deep scanning /home/username/psalm-sub-issue/vendor/vimeo/psalm/src/Psalm/Internal/VersionUtils.php
+Parsing /home/username/psalm-sub-issue/vendor/composer/InstalledVersions.php
+Deep scanning /home/username/psalm-sub-issue/vendor/composer/InstalledVersions.php
+Parsing /home/username/psalm-sub-issue/vendor/composer/installed.php
+Deep scanning /home/username/psalm-sub-issue/vendor/composer/installed.php
+Parsing /home/username/psalm-sub-issue/vendor/composer/autoload_files.php
+Deep scanning /home/username/psalm-sub-issue/vendor/composer/autoload_files.php
+Using reflection to get metadata for Closure
+Using reflection to get metadata for InvalidArgumentException
+Using composer to locate file for Symfony\Polyfill\Mbstring\Mbstring
+Using composer to locate file for Symfony\Polyfill\Ctype\Ctype
+Using composer to locate file for Symfony\Polyfill\Intl\Grapheme\Grapheme
+Using composer to locate file for Symfony\Polyfill\Intl\Normalizer\Normalizer
+Using reflection to locate file for Symfony\Component\String\u
+Using composer to locate file for Symfony\Component\String\UnicodeString
+Using reflection to locate file for Symfony\Component\String\b
+Using composer to locate file for Symfony\Component\String\ByteString
+Using reflection to locate file for Symfony\Component\String\s
+Using composer to locate file for Symfony\Component\String\AbstractString
+Using reflection to get metadata for Generator
+Using composer to locate file for Amp\Promise
+Using reflection to get metadata for Throwable
+Using composer to locate file for Amp\Failure
+Using composer to locate file for Amp\Coroutine
+Using reflection to locate file for React\Promise\PromiseInterface
+Using composer to locate file for Amp\Success
+Using composer to locate file for Amp\Delayed
+Using reflection to get metadata for TypeError
+Using reflection to get metadata for Error
+Using composer to locate file for Amp\Loop
+Using composer to locate file for Amp\Deferred
+Using composer to locate file for Amp\TimeoutException
+Using reflection to get metadata for Countable
+Using composer to locate file for Amp\MultiReasonException
+Using composer to locate file for Amp\Iterator
+Using reflection to get metadata for Traversable
+Using composer to locate file for Amp\Producer
+Using composer to locate file for Amp\Emitter
+Using composer to locate file for Symfony\Component\VarDumper\VarDumper
+Using composer to locate file for Amp\ByteStream\InputStream
+Using composer to locate file for Amp\ByteStream\OutputStream
+Using composer to locate file for Amp\ByteStream\ResourceInputStream
+Using composer to locate file for Amp\ByteStream\ResourceOutputStream
+Using composer to locate file for Amp\ByteStream\LineReader
+Using composer to locate file for Amp\ByteStream\StreamException
+Using reflection to get metadata for Phar
+Using reflection to get metadata for OutOfBoundsException
+Using composer to locate file for Composer\Semver\VersionParser
+Parsing /home/username/psalm-sub-issue/vendor/symfony/polyfill-mbstring/Mbstring.php
+Scanning /home/username/psalm-sub-issue/vendor/symfony/polyfill-mbstring/Mbstring.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/polyfill-ctype/Ctype.php
+Scanning /home/username/psalm-sub-issue/vendor/symfony/polyfill-ctype/Ctype.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-grapheme/Grapheme.php
+Scanning /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-grapheme/Grapheme.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-normalizer/Normalizer.php
+Scanning /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-normalizer/Normalizer.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/string/UnicodeString.php
+Scanning /home/username/psalm-sub-issue/vendor/symfony/string/UnicodeString.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/string/ByteString.php
+Scanning /home/username/psalm-sub-issue/vendor/symfony/string/ByteString.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/string/AbstractString.php
+Scanning /home/username/psalm-sub-issue/vendor/symfony/string/AbstractString.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Promise.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Promise.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Failure.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Failure.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Coroutine.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Coroutine.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Success.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Success.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Delayed.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Delayed.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Loop.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Loop.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Deferred.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Deferred.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/TimeoutException.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/TimeoutException.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/MultiReasonException.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/MultiReasonException.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Iterator.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Iterator.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Producer.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Producer.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Emitter.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Emitter.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/var-dumper/VarDumper.php
+Scanning /home/username/psalm-sub-issue/vendor/symfony/var-dumper/VarDumper.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/InputStream.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/InputStream.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/OutputStream.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/OutputStream.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/ResourceInputStream.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/ResourceInputStream.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/ResourceOutputStream.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/ResourceOutputStream.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/LineReader.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/LineReader.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/StreamException.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/StreamException.php
+Parsing /home/username/psalm-sub-issue/vendor/composer/semver/src/VersionParser.php
+Scanning /home/username/psalm-sub-issue/vendor/composer/semver/src/VersionParser.php
+Using reflection to get metadata for SplFileInfo
+Using reflection to get metadata for SplFileObject
+Using reflection to get metadata for DirectoryIterator
+Using reflection to get metadata for FilesystemIterator
+Using reflection to get metadata for RecursiveIterator
+Using reflection to get metadata for RecursiveDirectoryIterator
+Using reflection to get metadata for PharData
+Using reflection to get metadata for PharFileInfo
+Using composer to locate file for Normalizer
+Using composer to locate file for Symfony\Component\String\AbstractUnicodeString
+Using composer to locate file for Symfony\Component\String\CodePointString
+Using reflection to get metadata for Stringable
+Using reflection to get metadata for JsonSerializable
+Using reflection to locate file for React\Promise\PromiseInterface
+Using composer to locate file for Amp\Internal\Placeholder
+Using composer to locate file for Amp\Loop\Driver
+Using composer to locate file for Amp\Loop\UnsupportedFeatureException
+Using composer to locate file for Amp\Loop\InvalidWatcherError
+Using composer to locate file for Amp\Loop\DriverFactory
+Using reflection to get metadata for Exception
+Using composer to locate file for Amp\CallableMaker
+Using composer to locate file for Amp\Internal\Producer
+Using composer to locate file for Amp\ByteStream\PendingReadError
+Using composer to locate file for Amp\ByteStream\ClosedException
+Using reflection to get metadata for SplQueue
+Using reflection to get metadata for UnexpectedValueException
+Using composer to locate file for Composer\Semver\Constraint\ConstraintInterface
+Parsing /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php
+Scanning /home/username/psalm-sub-issue/vendor/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/string/AbstractUnicodeString.php
+Scanning /home/username/psalm-sub-issue/vendor/symfony/string/AbstractUnicodeString.php
+Parsing /home/username/psalm-sub-issue/vendor/symfony/string/CodePointString.php
+Scanning /home/username/psalm-sub-issue/vendor/symfony/string/CodePointString.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Internal/Placeholder.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Internal/Placeholder.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Loop/Driver.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Loop/Driver.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Loop/UnsupportedFeatureException.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Loop/UnsupportedFeatureException.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Loop/InvalidWatcherError.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Loop/InvalidWatcherError.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Loop/DriverFactory.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Loop/DriverFactory.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/CallableMaker.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/CallableMaker.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Internal/Producer.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Internal/Producer.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/PendingReadError.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/PendingReadError.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/ClosedException.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/byte-stream/lib/ClosedException.php
+Parsing /home/username/psalm-sub-issue/vendor/composer/semver/src/Constraint/ConstraintInterface.php
+Scanning /home/username/psalm-sub-issue/vendor/composer/semver/src/Constraint/ConstraintInterface.php
+Using reflection to locate file for Transliterator
+Using reflection to locate file for React\Promise\PromiseInterface
+Using composer to locate file for Amp\Internal\ResolutionQueue
+Using composer to locate file for Amp\Loop\Watcher
+Using reflection to get metadata for ReflectionClass
+Using reflection to get metadata for ReflectionMethod
+Using composer to locate file for Composer\Semver\Constraint\Constraint
+Using composer to locate file for Composer\Semver\Constraint\Bound
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Internal/ResolutionQueue.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Internal/ResolutionQueue.php
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Loop/Watcher.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Loop/Watcher.php
+Parsing /home/username/psalm-sub-issue/vendor/composer/semver/src/Constraint/Constraint.php
+Scanning /home/username/psalm-sub-issue/vendor/composer/semver/src/Constraint/Constraint.php
+Parsing /home/username/psalm-sub-issue/vendor/composer/semver/src/Constraint/Bound.php
+Scanning /home/username/psalm-sub-issue/vendor/composer/semver/src/Constraint/Bound.php
+Using reflection to get metadata for ReflectionProperty
+Using reflection to get metadata for ReflectionClassConstant
+Using reflection to get metadata for ReflectionExtension
+Using reflection to get metadata for ReflectionAttribute
+Using reflection to get metadata for ReflectionParameter
+Using reflection to get metadata for ReflectionType
+Using reflection to locate file for React\Promise\PromiseInterface
+Using composer to locate file for Amp\Struct
+Parsing /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Struct.php
+Scanning /home/username/psalm-sub-issue/vendor/amphp/amp/lib/Struct.php
+Using reflection to get metadata for ReflectionFunction
+Using reflection to get metadata for ReflectionFunctionAbstract
+Finished registering autoloaded files
+Visiting autoload files took 0.302s
+Initializing plugins...
+Parsing /home/username/psalm-sub-issue/src/TestProcessor.php
+Deep scanning /home/username/psalm-sub-issue/src/TestProcessor.php
+Using composer to locate file for ApiPlatform\State\ProcessorInterface
+Using composer to locate file for ApiPlatform\Metadata\Operation
+Parsing /home/username/psalm-sub-issue/vendor/api-platform/core/src/State/ProcessorInterface.php
+Scanning /home/username/psalm-sub-issue/vendor/api-platform/core/src/State/ProcessorInterface.php
+Parsing /home/username/psalm-sub-issue/vendor/api-platform/core/src/Metadata/Operation.php
+Scanning /home/username/psalm-sub-issue/vendor/api-platform/core/src/Metadata/Operation.php
+Using composer to locate file for ApiPlatform\Metadata\WithResourceTrait
+Using composer to locate file for ApiPlatform\State\OptionsInterface
+Parsing /home/username/psalm-sub-issue/vendor/api-platform/core/src/Metadata/WithResourceTrait.php
+Scanning /home/username/psalm-sub-issue/vendor/api-platform/core/src/Metadata/WithResourceTrait.php
+Parsing /home/username/psalm-sub-issue/vendor/api-platform/core/src/State/OptionsInterface.php
+Scanning /home/username/psalm-sub-issue/vendor/api-platform/core/src/State/OptionsInterface.php
+Using composer to locate file for ApiPlatform\Metadata\ApiResource
+Parsing /home/username/psalm-sub-issue/vendor/api-platform/core/src/Metadata/ApiResource.php
+Scanning /home/username/psalm-sub-issue/vendor/api-platform/core/src/Metadata/ApiResource.php
+Using composer to locate file for ApiPlatform\Metadata\Operations
+Using reflection to get metadata for Attribute
+Using composer to locate file for ApiPlatform\OpenApi\Model\Operation
+Using composer to locate file for ApiPlatform\Metadata\Link
+Using composer to locate file for ApiPlatform\Metadata\GraphQl\Operation
+Parsing /home/username/psalm-sub-issue/vendor/api-platform/core/src/Metadata/Operations.php
+Scanning /home/username/psalm-sub-issue/vendor/api-platform/core/src/Metadata/Operations.php
+Parsing /home/username/psalm-sub-issue/vendor/api-platform/core/src/OpenApi/Model/Operation.php
+Scanning /home/username/psalm-sub-issue/vendor/api-platform/core/src/OpenApi/Model/Operation.php
+Parsing /home/username/psalm-sub-issue/vendor/api-platform/core/src/Metadata/Link.php
+Scanning /home/username/psalm-sub-issue/vendor/api-platform/core/src/Metadata/Link.php
+Parsing /home/username/psalm-sub-issue/vendor/api-platform/core/src/Metadata/GraphQl/Operation.php
+Scanning /home/username/psalm-sub-issue/vendor/api-platform/core/src/Metadata/GraphQl/Operation.php
+Using reflection to get metadata for IteratorAggregate
+Using composer to locate file for ApiPlatform\OpenApi\Model\ExtensionTrait
+Using composer to locate file for ApiPlatform\OpenApi\Model\ExternalDocumentation
+Using composer to locate file for ApiPlatform\OpenApi\Model\RequestBody
+Using reflection to get metadata for ArrayObject
+Using composer to locate file for ApiPlatform\OpenApi\Model\Response
+Using composer to locate file for ApiPlatform\OpenApi\Model\Parameter
+Parsing /home/username/psalm-sub-issue/vendor/api-platform/core/src/OpenApi/Model/ExtensionTrait.php
+Scanning /home/username/psalm-sub-issue/vendor/api-platform/core/src/OpenApi/Model/ExtensionTrait.php
+Parsing /home/username/psalm-sub-issue/vendor/api-platform/core/src/OpenApi/Model/ExternalDocumentation.php
+Scanning /home/username/psalm-sub-issue/vendor/api-platform/core/src/OpenApi/Model/ExternalDocumentation.php
+Parsing /home/username/psalm-sub-issue/vendor/api-platform/core/src/OpenApi/Model/RequestBody.php
+Scanning /home/username/psalm-sub-issue/vendor/api-platform/core/src/OpenApi/Model/RequestBody.php
+Parsing /home/username/psalm-sub-issue/vendor/api-platform/core/src/OpenApi/Model/Response.php
+Scanning /home/username/psalm-sub-issue/vendor/api-platform/core/src/OpenApi/Model/Response.php
+Parsing /home/username/psalm-sub-issue/vendor/api-platform/core/src/OpenApi/Model/Parameter.php
+Scanning /home/username/psalm-sub-issue/vendor/api-platform/core/src/OpenApi/Model/Parameter.php
+Using reflection to get metadata for ArrayIterator
+ClassLikeStorage is populating
+Have populated ComposerAutoloaderInit622109464fc0ad11bd0734a10834f6c6
+Have populated Composer\Autoload\ClassLoader
+Have populated Composer\Autoload\ComposerStaticInit622109464fc0ad11bd0734a10834f6c6
+Have populated Psalm\Internal\VersionUtils
+Have populated Composer\InstalledVersions
+Have populated Closure
+Have populated Exception
+Have populated LogicException
+Have populated InvalidArgumentException
+Have populated Stringable
+Have populated Throwable
+Have populated Generator
+Have populated Iterator
+Have populated Traversable
+Have populated Error
+Have populated TypeError
+Have populated Countable
+Have populated SplFileInfo
+Have populated DirectoryIterator
+Have populated FilesystemIterator
+Have populated RecursiveDirectoryIterator
+Have populated Phar
+Have populated SeekableIterator
+Have populated RecursiveIterator
+Have populated ArrayAccess
+Have populated RuntimeException
+Have populated OutOfBoundsException
+Have populated Symfony\Polyfill\Mbstring\Mbstring
+Have populated Symfony\Polyfill\Ctype\Ctype
+Have populated Symfony\Polyfill\Intl\Grapheme\Grapheme
+Have populated Symfony\Polyfill\Intl\Normalizer\Normalizer
+Have populated JsonSerializable
+Have populated Symfony\Component\String\AbstractString
+Have populated Symfony\Component\String\AbstractUnicodeString
+Have populated Symfony\Component\String\UnicodeString
+Have populated Symfony\Component\String\ByteString
+Have populated Amp\Promise
+Have populated Amp\Failure
+Have populated Amp\Internal\Placeholder
+Have populated Amp\Coroutine
+Have populated Amp\Success
+Have populated Amp\Delayed
+Have populated Amp\Loop
+Have populated Amp\Deferred
+Have populated Amp\TimeoutException
+Have populated Amp\MultiReasonException
+Have populated Amp\Iterator
+Have populated Amp\CallableMaker
+Have populated Amp\Internal\Producer
+Have populated Amp\Producer
+Have populated Amp\Emitter
+Have populated Symfony\Component\VarDumper\VarDumper
+Have populated Amp\ByteStream\InputStream
+Have populated Amp\ByteStream\OutputStream
+Have populated Amp\ByteStream\ResourceInputStream
+Have populated Amp\ByteStream\ResourceOutputStream
+Have populated Amp\ByteStream\LineReader
+Have populated Amp\ByteStream\StreamException
+Have populated Composer\Semver\VersionParser
+Have populated SplFileObject
+Have populated PharData
+Have populated PharFileInfo
+Have populated SplDoublyLinkedList
+Have populated SplQueue
+Have populated Serializable
+Have populated UnexpectedValueException
+Have populated Normalizer
+Have populated Symfony\Component\String\CodePointString
+Have populated Amp\Loop\Driver
+Have populated Amp\Loop\UnsupportedFeatureException
+Have populated Amp\Loop\InvalidWatcherError
+Have populated Amp\Loop\DriverFactory
+Have populated Amp\ByteStream\PendingReadError
+Have populated Amp\ByteStream\ClosedException
+Have populated Composer\Semver\Constraint\ConstraintInterface
+Have populated ReflectionClass
+Have populated Reflector
+Have populated ReflectionFunctionAbstract
+Have populated ReflectionMethod
+Have populated Amp\Internal\ResolutionQueue
+Have populated Amp\Struct
+Have populated Amp\Loop\Watcher
+Have populated Composer\Semver\Constraint\Constraint
+Have populated Composer\Semver\Constraint\Bound
+Have populated ReflectionProperty
+Have populated ReflectionClassConstant
+Have populated ReflectionExtension
+Have populated ReflectionAttribute
+Have populated ReflectionParameter
+Have populated ReflectionType
+Have populated ReflectionFunction
+Have populated ApiPlatform\State\ProcessorInterface
+Have populated MichelCetina\PsalmSubIssue\TestProcessor
+Have populated ApiPlatform\Metadata\WithResourceTrait
+Have populated ApiPlatform\Metadata\Operation
+Have populated ApiPlatform\State\OptionsInterface
+Have populated ApiPlatform\Metadata\ApiResource
+Have populated Attribute
+Have populated IteratorAggregate
+Have populated ApiPlatform\Metadata\Operations
+Have populated ApiPlatform\OpenApi\Model\ExtensionTrait
+Have populated ApiPlatform\OpenApi\Model\Operation
+Have populated ApiPlatform\Metadata\Link
+Have populated ApiPlatform\Metadata\GraphQl\Operation
+Have populated ArrayObject
+Have populated ApiPlatform\OpenApi\Model\ExternalDocumentation
+Have populated ApiPlatform\OpenApi\Model\RequestBody
+Have populated ApiPlatform\OpenApi\Model\Response
+Have populated ApiPlatform\OpenApi\Model\Parameter
+Have populated ArrayIterator
+ClassLikeStorage is populated
+FileStorage is populating
+FileStorage is populated
+Registering stub files
+Parsing /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/CoreGenericFunctions.phpstub
+Deep scanning /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/CoreGenericFunctions.phpstub
+Parsing /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/CoreGenericClasses.phpstub
+Deep scanning /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/CoreGenericClasses.phpstub
+Parsing /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/CoreGenericIterators.phpstub
+Deep scanning /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/CoreGenericIterators.phpstub
+Parsing /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/CoreImmutableClasses.phpstub
+Deep scanning /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/CoreImmutableClasses.phpstub
+Parsing /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/Reflection.phpstub
+Deep scanning /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/Reflection.phpstub
+Parsing /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/SPL.phpstub
+Deep scanning /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/SPL.phpstub
+Parsing /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/Php80.phpstub
+Deep scanning /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/Php80.phpstub
+Parsing /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/Php81.phpstub
+Deep scanning /home/username/psalm-sub-issue/vendor/vimeo/psalm/stubs/Php81.phpstub
+Parsing /home/username/psalm-sub-issue/stubs/ProcessorInterface.phpstub
+Deep scanning /home/username/psalm-sub-issue/stubs/ProcessorInterface.phpstub
+Using reflection to get metadata for DateTimeInterface
+Using reflection to get metadata for DateInterval
+Using reflection to get metadata for DateTime
+Using reflection to get metadata for Reflector
+Using reflection to get metadata for ReflectionException
+ClassLikeStorage is populating
+Have populated Traversable
+Have populated Generator
+Have populated SplFileInfo
+Have populated Iterator
+Have populated SeekableIterator
+Have populated DirectoryIterator
+Have populated FilesystemIterator
+Have populated RecursiveIterator
+Have populated RecursiveDirectoryIterator
+Have populated Phar
+Have populated SplFileObject
+Have populated PharData
+Have populated ArrayAccess
+Have populated Serializable
+Have populated SplDoublyLinkedList
+Have populated SplQueue
+Have populated IteratorAggregate
+Have populated ApiPlatform\Metadata\Operations
+Have populated ArrayObject
+Have populated ArrayIterator
+Have populated WeakReference
+Have populated WeakMap
+Have populated mysqli
+Have populated SQLite3
+Have populated ReturnTypeWillChange
+Have populated OuterIterator
+Have populated IteratorIterator
+Have populated AppendIterator
+Have populated FilterIterator
+Have populated CachingIterator
+Have populated CallbackFilterIterator
+Have populated EmptyIterator
+Have populated GlobIterator
+Have populated InfiniteIterator
+Have populated LimitIterator
+Have populated NoRewindIterator
+Have populated MultipleIterator
+Have populated RecursiveFilterIterator
+Have populated ParentIterator
+Have populated RecursiveArrayIterator
+Have populated RecursiveCachingIterator
+Have populated RecursiveCallbackFilterIterator
+Have populated RecursiveIteratorIterator
+Have populated RegexIterator
+Have populated RecursiveRegexIterator
+Have populated RecursiveTreeIterator
+Have populated DateTimeInterface
+Have populated DateTimeImmutable
+Have populated DateTimeZone
+Have populated DatePeriod
+Have populated Throwable
+Have populated Exception
+Have populated LogicException
+Have populated InvalidArgumentException
+Have populated Error
+Have populated TypeError
+Have populated RuntimeException
+Have populated OutOfBoundsException
+Have populated Amp\TimeoutException
+Have populated Amp\MultiReasonException
+Have populated Amp\ByteStream\StreamException
+Have populated UnexpectedValueException
+Have populated Amp\Loop\UnsupportedFeatureException
+Have populated Amp\Loop\InvalidWatcherError
+Have populated Amp\ByteStream\PendingReadError
+Have populated Amp\ByteStream\ClosedException
+Have populated ReflectionClass
+Have populated ReflectionFunctionAbstract
+Have populated ReflectionMethod
+Have populated ReflectionFunction
+Have populated ReflectionProperty
+Have populated ReflectionClassConstant
+Have populated ReflectionParameter
+Have populated ReflectionType
+Have populated ReflectionNamedType
+Have populated SplFixedArray
+Have populated SplStack
+Have populated SplHeap
+Have populated SplMaxHeap
+Have populated SplMinHeap
+Have populated SplPriorityQueue
+Have populated SplObjectStorage
+Have populated Stringable
+Have populated Symfony\Component\String\AbstractString
+Have populated Symfony\Component\String\AbstractUnicodeString
+Have populated Symfony\Component\String\UnicodeString
+Have populated Symfony\Component\String\ByteString
+Have populated PharFileInfo
+Have populated Symfony\Component\String\CodePointString
+Have populated Composer\Semver\Constraint\Constraint
+Have populated Composer\Semver\Constraint\Bound
+Have populated ReflectionExtension
+Have populated ReflectionAttribute
+Have populated Attribute
+Have populated ReflectionUnionType
+Have populated UnhandledMatchError
+Have populated CurlHandle
+Have populated CurlMultiHandle
+Have populated CurlShareHandle
+Have populated UnitEnum
+Have populated BackedEnum
+Have populated ReflectionEnum
+Have populated ReflectionEnumUnitCase
+Have populated ReflectionEnumBackedCase
+Have populated ReflectionIntersectionType
+Have populated FTP\Connection
+Have populated IMAP\Connection
+Have populated LDAP\Connection
+Have populated LDAP\Result
+Have populated LDAP\ResultEntry
+Have populated PgSql\Connection
+Have populated PgSql\Result
+Have populated PgSql\Lob
+Have populated PSpell\Config
+Have populated PSpell\Dictionary
+Have populated ApiPlatform\State\ProcessorInterface
+Have populated MichelCetina\PsalmSubIssue\TestProcessor
+Have populated DateInterval
+Have populated DateTime
+Have populated ReflectionException
+ClassLikeStorage is populated
+FileStorage is populating
+FileStorage is populated
+Finished registering stub files
+Analyzing files...
+Getting /home/username/psalm-sub-issue/src/TestProcessor.php
+Analyzing /home/username/psalm-sub-issue/src/TestProcessor.php
+/home/username/psalm-sub-issue/src/TestProcessor.php:3
+/home/username/psalm-sub-issue/src/TestProcessor.php:18
+Checking class references
