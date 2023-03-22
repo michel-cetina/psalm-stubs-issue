@@ -1,0 +1,26 @@
+Warning: "findUnusedBaselineEntry" will be defaulted to "true" in Psalm 6. You should explicitly enable or disable this setting.
+Warning: "findUnusedCode" will be defaulted to "true" in Psalm 6. You should explicitly enable or disable this setting.
+Warning: "findUnusedBaselineEntry" will be defaulted to "true" in Psalm 6. You should explicitly enable or disable this setting.
+Warning: "findUnusedCode" will be defaulted to "true" in Psalm 6. You should explicitly enable or disable this setting.
+Target PHP version: 8.1 (inferred from composer.json).
+Scanning files...
+Analyzing files...
+
+
+Emitting src/TestProcessor.php:16 MethodSignatureMismatch Argument 3 of MichelCetina\PsalmSubIssue\TestProcessor::process has wrong type 'array<array-key, mixed>', expecting 'array<string, string>' as defined by ApiPlatform\State\ProcessorInterface::process
+#0 /home/michel/Powercloud/psalm-sub-issue/vendor/vimeo/psalm/src/Psalm/IssueBuffer.php(140): Psalm\IssueBuffer::add()
+#1 /home/michel/Powercloud/psalm-sub-issue/vendor/vimeo/psalm/src/Psalm/IssueBuffer.php(150): Psalm\IssueBuffer::accepts()
+#2 /home/michel/Powercloud/psalm-sub-issue/vendor/vimeo/psalm/src/Psalm/Internal/Analyzer/MethodComparator.php(421): Psalm\IssueBuffer::maybeAdd()
+#3 /home/michel/Powercloud/psalm-sub-issue/vendor/vimeo/psalm/src/Psalm/Internal/Analyzer/MethodComparator.php(184): Psalm\Internal\Analyzer\MethodComparator::compareMethodParams()
+#4 /home/michel/Powercloud/psalm-sub-issue/vendor/vimeo/psalm/src/Psalm/Internal/Analyzer/ClassAnalyzer.php(2284): Psalm\Internal\Analyzer\MethodComparator::compare()
+#5 /home/michel/Powercloud/psalm-sub-issue/vendor/vimeo/psalm/src/Psalm/Internal/Analyzer/ClassAnalyzer.php(352): Psalm\Internal\Analyzer\ClassAnalyzer->checkImplementedInterfaces()
+#6 /home/michel/Powercloud/psalm-sub-issue/vendor/vimeo/psalm/src/Psalm/Internal/Analyzer/FileAnalyzer.php(203): Psalm\Internal\Analyzer\ClassAnalyzer->analyze()
+#7 /home/michel/Powercloud/psalm-sub-issue/vendor/vimeo/psalm/src/Psalm/Internal/Codebase/Analyzer.php(1581): Psalm\Internal\Analyzer\FileAnalyzer->analyze()
+#8 /home/michel/Powercloud/psalm-sub-issue/vendor/vimeo/psalm/src/Psalm/Internal/Codebase/Analyzer.php(522): Psalm\Internal\Codebase\Analyzer->analysisWorker()
+#9 /home/michel/Powercloud/psalm-sub-issue/vendor/vimeo/psalm/src/Psalm/Internal/Codebase/Analyzer.php(272): Psalm\Internal\Codebase\Analyzer->doAnalysis()
+#10 /home/michel/Powercloud/psalm-sub-issue/vendor/vimeo/psalm/src/Psalm/Internal/Analyzer/ProjectAnalyzer.php(669): Psalm\Internal\Codebase\Analyzer->analyzeFiles()
+#11 /home/michel/Powercloud/psalm-sub-issue/vendor/vimeo/psalm/src/Psalm/Internal/Cli/Psalm.php(373): Psalm\Internal\Analyzer\ProjectAnalyzer->check()
+#12 /home/michel/Powercloud/psalm-sub-issue/vendor/vimeo/psalm/psalm(9): Psalm\Internal\Cli\Psalm::run()
+#13 /home/michel/Powercloud/psalm-sub-issue/vendor/bin/psalm(120): include('...')
+
+E
